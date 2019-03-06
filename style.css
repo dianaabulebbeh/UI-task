@@ -1,0 +1,117 @@
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-size: 14px;
+}
+h1,
+h3 {
+  color: #33334d;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+u {
+  font-size: 15px;
+  white-space: pre-line;
+  text-align: left;
+}
+p {
+  text-align: justify;
+}
+#content2 button {
+  padding-bottom: 20px;
+  display: none;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blog-post {
+  width: 70%;
+  padding-right: 30px;
+  float: left;
+}
+.other-posts {
+  padding-left: 15px;
+  width: 30%;
+  background: #f3f3f2;
+  float: left;
+}
+
+.other-posts img {
+  width: 70px;
+  height: 30px;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+h4 {
+  text-align: center;
+  padding-top: 12px;
+}
+
+.col {
+  display: block;
+  float: left;
+  margin: 1% 1% 1% 1.6%;
+}
+
+.span-1-of-4 {
+  width: 21.8%;
+}
+.col:first-child {
+  margin-left: 0%;
+}
+
+.box h4 {
+  color: gray;
+}
+
+.steps-box {
+  margin-top: 30px;
+}
+
+.span-1-of-2 {
+  width: 95.2%;
+}
+.span-1-of-2 p {
+  padding-bottom: 20px;
+}
+.span-1-of-2 img {
+  width: 96.2%;
+  height: 90%;
+  padding-bottom: 20px;
+}
+
+#navbar {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.box {
+  border: none;
+  color: gray;
+  background-color: #f3f3f2;
+}
+.box h4:link {
+  color: gray;
+
+  border-bottom: 2px solid black;
+}
+.box h4:hover {
+  color: black;
+  padding: 8px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}

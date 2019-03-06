@@ -1,0 +1,83 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+    position: relative;
+  }
+
+  .blog-post {
+    width: 40%;
+    padding-right: 10px;
+    float: left;
+  }
+  h1 {
+    width: 75%;
+    font-size: 17px;
+  }
+  .other-posts {
+    width: 2.5%;
+    height: 40%;
+    background: none;
+    float: left;
+    padding-left: 0%;
+  }
+  .other-posts img {
+    width: 19px;
+    height: 12px;
+    padding-bottom: 5px;
+  }
+  #content {
+    display: none;
+  }
+
+  .box h4 {
+    display: none;
+  }
+  .main-nav {
+    display: inline-grid;
+    width: 20px;
+    display: hide;
+  }
+
+  steps-box {
+    margin-top: 30px;
+  }
+
+  .span-1-of-4 {
+    width: 0%;
+  }
+  .span-1-of-2 img {
+    width: 9.2%;
+    height: 5%;
+  }
+  .box img:link {
+    color: gray;
+
+    border-bottom: 2px solid black;
+  }
+  .box img:hover {
+    color: black;
+    padding: 8px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+
+  .main-nav-mobile {
+    padding-top: 6%;
+
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    background-attachment: fixed;
+  }
+  .main-nav-mobile img {
+    width: 350px;
+    height: 300px;
+  }
+  .main-nav-mobile button {
+    display: block;
+  }
+}
